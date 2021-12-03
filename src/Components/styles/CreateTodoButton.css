@@ -1,0 +1,45 @@
+.button {
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;  
+  width: 50%;
+  height: 60px;
+  font-weight: 700;
+  font-size: .8em;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  background: #323232;
+  transition: 0.5s ease all;
+  position: relative;
+  overflow: hidden;
+  
+}
+
+.button::after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: calc(-100% - 150px);
+  transition: 0.5s ease all;
+  border-top: 60px solid #eeeeee;
+  border-right: 150px solid transparent;
+  z-index: 1;
+}
+.button:hover::after {
+  top: 0px;
+  left: 0px;
+  transition: 0.5s ease-in-out all;
+}
+
+.button span {
+  position: relative;
+  z-index: 2;
+}
+.button:hover span {
+  position: relative;
+  color: #000;
+  transition: 0.5s ease all;
+}

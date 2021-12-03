@@ -1,0 +1,36 @@
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+p {
+  width: 90%;
+  text-align: center;
+}
+.icon{
+  font-size: 1em;
+  cursor: pointer;
+}
+.icon-Check:hover {
+  filter: drop-shadow( 2px 3px 5px #b8de6f);
+  transition: 0.4s ease all;
+}
+.icon-Check--Completed {
+  display: inline-block;
+  color: #FF0000;
+}
+.icon-Check--Completed:hover {
+  filter: drop-shadow( 2px 3px 5px #000);
+
+}
+.icon-Delete:hover {
+  color: #af0404;
+  filter: drop-shadow(1px 1px 2px #000);
+  transition: 0.3s ease-in-out all;
+
+}
+
+.text--Completed {
+    text-decoration: line-through #FF0000;
+}

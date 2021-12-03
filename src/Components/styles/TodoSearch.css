@@ -1,0 +1,15 @@
+.searchBar{
+    border: none;
+    width: 30%;
+    font-size: .8em;
+    height: 50px;
+    text-align: center;
+    outline-color: #14FFEC;
+    border-radius: 5px;
+    font-weight: 600;
+}
+@media screen and (max-width: 600px) {
+    .searchBar {
+      width: 80%;
+    }
+  }
