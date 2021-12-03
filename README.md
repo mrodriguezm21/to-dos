@@ -1,3 +1,3 @@
 # To Do's project with REACT
 
-***[Deployment](https://mrodriguezm21.github.io/todos/)***
+***[Deployment](https://mrodriguezm21.github.io/to-dos/)***
